@@ -1,0 +1,85 @@
+body{
+    min-height: 100vh;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background: rgb(2,0,36); */
+    /* background-repeat: no-repeat; */
+    background: linear-gradient(0deg, #020024 0%, #090979 50%, #00d4ff 100%);
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-boton{
+   
+    display: flex;
+    justify-content: center; 
+    height: 10rem;
+    width: 100vw;
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.div-boton .boton{
+    height:40%;
+    font-size: 1.2rem;
+    margin: 2.5rem;
+    color: whitesmoke;
+    background-color:#1f1f1f;
+}
+
+.weather-box{
+    background-color: whitesmoke;
+    padding: 1rem;
+    border:0.125rem solid whitesmoke;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.vib{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.weather-box .vib{
+    margin: 2rem 0;
+}
+.weather-box .vib .icono{
+    height: 6rem;
+    width: 6rem;
+}
+
+.weather-box .vib .temp{
+    font-size:3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.weather-box .titulos .city{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.weather-box .titulos .condition{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+.max-min{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+}
+
+
+
+
